@@ -1,4 +1,52 @@
+body{
+    width: 100%;
+}
+
 footer{
     background-color: black;
     color:white;
 }
+
+.btn{
+    color: black;
+    border-color: black;
+}
+
+.btn:hover{
+    background-color: black;
+    color:white;
+}
+
+.col{
+    text-decoration: none;
+    color:white
+}
+
+.first-line{
+    border-bottom: 1px solid #392d23;
+}
+
+@media screen and (max-width:48rem){
+    .first-line{
+        text-align:center;
+    }
+}
+
+@media screen and (max-width:48rem){
+    .second-line{
+        padding-left: 2rem;
+        padding-right: 2rem;
+        border-bottom: 1px solid #392d23;
+    }
+}
+
+.third-line{
+    display: none;
+}
+
+@media  screen and (max-width:48rem) {
+    .third-line{
+        display: block;
+    }
+}
+
